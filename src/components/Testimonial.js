@@ -9,7 +9,7 @@ const Testimonial = () => {
                         I highly recommend their services to anyone looking for top-notch tech talent."
                     </p>
                     <div className='flex flex-col items-start'>
-                        <img src="charles.svg" alt="" className='mt-6 h-60' />
+                        <img src="charles.svg" alt="CEO of developers core" className='mt-6 h-44 hover:-rotate-90' />
                         <p className='text-xl'>Charles <span className='text-pink-650'>| CEO of DevelopersCore </span></p>
                     </div>
                 </div>
@@ -17,7 +17,7 @@ const Testimonial = () => {
                     <p className='bg-black-650 border-2 border-white tracking-widest order-last p-6 mt-6 testominals text-light'>“Brainy Bunch exceeded all of my expectations. Their developers not only brought my website to the next level, but they also provided creative solutions that elevated the user experience"
                     </p>
                     <div className='flex flex-col items-end'>
-                        <img src="james.svg" alt="" className='h-90' />
+                        <img src="james.svg" alt="CEO of sparks " className='h-90 hover:-rotate-90' />
                         <p className='text-xl mt-5'>James <span className='text-green-650'>| Owner of Sparks </span></p>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ const Banner = () => {
                     </div>
                     <p className='text-2xl leading-[35px] font-light'>Brainy Bunch is teaming you up with developers <br /> who shall turn your code into gold faster than </p>
                     <p className='flex text-2xl items-center font-light'>
-                        you can say 'Abracadabra!
+                        you can say <span className='brushed-background'>'Abracadabra! </span>
                         <span className='mx-5'>
                             <img src="arrows-right.svg" alt="brainy bunch developers"
                             className='hidden lg:block'
@@ -31,7 +31,7 @@ const Banner = () => {
                         </span>
                     </p>
                     <div className='flex mt-8'>
-                        <button className='button-pink text-2xl flex items-center' alt='hire a developer'>
+                        <button className='button-pink text-2xl flex items-center hover:rotate-1' alt='hire a developer'>
                             <img src="armour-cta.svg" alt="fill up a form to hire a developer" className='h-[40px]'/>
                             <p className='hover:text-green-650'>Join the Hunt</p></button>
                         <img src="clock.svg" alt="get a developer in less than 24 hours" className='h-[80px]' />

@@ -14,12 +14,12 @@ const Navbar = () => {
                 />
             </div>
             <div className='flex'>
-                <button className='mr-3 hover:text-xl hover:text-green-650'>login</button>
-                <button className='button-pink flex items-center mx-10'>
+                <button className='mr-3 hover:text-xl hover:text-green-650 '>login</button>
+                <button className='button-pink flex items-center mx-10 hover:rotate-1'>
                     <img src="twemoji_brain.svg" alt="Hire a software developer" />
                     <span className='mx-1 hover:text-black'>Hire Brains</span>
                 </button>
-                <button className='button-green flex items-center'>
+                <button className='button-green flex items-center hover:-rotate-1'>
                     <img src="game-icons_swords-emblem.svg" alt="Join us to work for top clients" />
                     <span className='hover:text-green-650 mx-1'>Join our forces</span>
                 </button>

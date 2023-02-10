@@ -16,6 +16,9 @@ import TheKing from '@/components/TheKing'
 import Testimonial from '@/components/Testimonial'
 import JoinOurCommunity from '@/components/JoinOurCommunity'
 import PaymentPlans from '@/components/PaymentPlans'
+import NinjaCode from '@/components/NinjaCode'
+import FAQs from '@/components/FAQs'
+import WeeklyProgress from '@/components/WeeklyProgress'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -36,31 +39,59 @@ export default function Home() {
         bottom-0 h-[90%]'  />
       </section>
 
-      <section className='mt-40  w-[70]'><CodeMonkey /></section>
+      <section className='mt-44  w-[70]'><CodeMonkey /></section>
 
-      <section className='mt-40 '><DeveloperSearch /></section>
+      <section className='mt-44 '><DeveloperSearch /></section>
 
-      <section className='mt-32'><Army /></section>
+      <section>
+        <section className='mt-44'><Army /></section>
+        <div className='flex justify-between relative'>
+          <div className='flex mt-60 bg-gray-600 justify-center items-center '>
+            <img src="/techs/AWS.svg" alt="" className='h-[120px]' />
+            <img src="/techs/language1.svg" alt="" className='h-[120px]'/>
+            <img src="/techs/language2.svg" alt="" className='h-[120px] mx-10' />
+            <img src="/techs/language3.svg" alt="" className='h-[120px] mx-10' />
+            <img src="/techs/language4.svg" alt="" className='h-[120px] mx-10' />
+            <img src="/techs/language5.svg" alt="" className='h-[120px] mx-10' />
+            <img src="/techs/language6.svg" alt="" className='h-[120px] mx-10' />
+            <img src="/techs/language7.svg" alt="" className='h-[120px] mx-10' />
+            <img src="/techs/language8.svg" alt="" className='h-[120px] mx-10' />
+            <img src="/techs/language9.svg" alt="" className='h-[120px]' />
+          </div>
+          <img src="castle.svg" alt="Castle of multiple programming languages React Angular Ruby on Rails
+        java javascript typescript c++ c# and manymore" className='w-[400px] absolute  bottom-0 right-0 ' />
+        </div>
+      </section>
 
-      <section className='mt-32'><RoyalCouncil /></section>
+      <section className='mt-44'><RoyalCouncil /></section>
 
       <section className='flames-bg mt-32'>
         <section className='mt-32'><SelectionProcess /></section>
       </section>
 
-      <section className='mt-32'><HiringProblem /></section>
+      <section className='mt-44'><HiringProblem /></section>
 
-      <section className='mt-32'><CodeStory /></section>
+      <section className='mt-44'><CodeStory /></section>
 
-      <section className='mt-32'><BecomePart /></section>
+      <section className='mt-32 '><BecomePart /></section>
 
-      <section className='mt-32'><TheKing /></section>
+      <section className='mt-44'><TheKing /></section>
 
-      <section className='mt-32'><Testimonial /></section>
+      <section className='mt-44'><Testimonial /></section>
 
-      <section className='mt-32'><JoinOurCommunity /></section>
+      <section className='mt-32 '><JoinOurCommunity /></section>
 
-      <section className='mt-32'><PaymentPlans /></section>
+      <section className='mt-44'><WeeklyProgress /></section>
+
+      <section className='mt-44'><PaymentPlans /></section>
+
+      <section className='mt-44'><NinjaCode /></section>
+
+      <section className='flames-bg mt-32'>
+        <section className='mt-44'><FAQs /></section>
+      </section>
+
+
     </>
   )
 }

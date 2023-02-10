@@ -136,16 +136,42 @@ a {
 .flames-bg {
   background-image: url('/flame-bg.svg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 110%;
   padding-top: 220px;
-  height: 1550px;
+  height: 1700px;
 }
 
 
 .shadow-outline-white {
-  box-shadow: 0 0 20px #ffffff;
+  box-shadow: 0 0 3px #ffffff;
 }
 
 .testominals{
   background: #37474F;
 }
+
+.blurred-background {
+  background-color: #FF3DF0;
+  filter: blur(600px);
+}
+
+.height-lady{
+  height: 300px;
+}
+
+.height-dragon{
+  height: 275px;
+}
+
+.double-brush-effect{
+  text-shadow: 2px 2px #FF3DF0;
+}
+
+.brushed-background{
+  background-image: url('/brush-effect.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+
