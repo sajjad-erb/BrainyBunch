@@ -19,6 +19,7 @@ import PaymentPlans from '@/components/PaymentPlans'
 import NinjaCode from '@/components/NinjaCode'
 import FAQs from '@/components/FAQs'
 import WeeklyProgress from '@/components/WeeklyProgress'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -45,7 +46,7 @@ export default function Home() {
 
       <section>
         <section className='mt-44'><Army /></section>
-        <div className='flex justify-between relative mt-40'>
+        <div className='flex justify-between relative mt-64'>
           <div class="slide-right -rotate-12 ">
             <div className='flex justify-center items-center p-3'>
               <img src="/techs/AWS.svg" alt="" className='h-[120px]' />
@@ -67,10 +68,10 @@ export default function Home() {
               <img src="/techs/Django.svg" alt="" className='h-[120px] mx-14' />
               <img src="/techs/react-native.svg" alt="" className='h-[120px] mx-14' />
               <img src="/techs/language9.svg" alt="" className='h-[120px]' />
-              </div>
+            </div>
           </div>
-          <img src="castle-updated.svg" alt="Castle of multiple programming languages React Angular Ruby on Rails
-        java javascript typescript c++ c# and manymore" className='w-[500px] absolute  bottom-2 right-[-10%]  ' />
+          <img src="castle-updated1.svg" alt="Castle of multiple programming languages React Angular Ruby on Rails
+        java javascript typescript c++ c# and manymore" className='w-[500px] absolute  bottom-16 right-[-10%]  ' />
         </div>
       </section>
 
@@ -102,7 +103,7 @@ export default function Home() {
         <section className='mt-44'><FAQs /></section>
       </section>
 
-
+      <footer><Footer /></footer>
 
 
     </>

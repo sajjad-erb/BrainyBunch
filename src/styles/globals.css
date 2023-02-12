@@ -175,7 +175,7 @@ a {
 }
 
 .slide-right {
-  width: 86%;
+  width: 88%;
   /* width: 100%; */
   overflow: hidden;
   margin-left: -30px;
@@ -183,7 +183,7 @@ a {
 }
 
 .slide-right div {
-  animation: 60s slide-right 0.01s forwards infinite;
+  animation: 40s slide-right 0.01s forwards infinite;
   animation-iteration-count: infinite;
     transform:translateX(-100%);
 }

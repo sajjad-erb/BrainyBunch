@@ -3,7 +3,7 @@ import React from 'react'
 const PaymentPlans = () => {
   return (
     <div className='mx-[8%] tracking-widest'>
-      <div className='flex'>
+      <div className='flex items-center'>
         <h1 className='text-7xl w-[75%] font-bold'>Sparkle with Creativity without destroying Your <span className='text-green-650'> Kingdom's Wealth</span></h1>
         <img src="TreasureForPlans.svg" alt="Save your money while hiring software engineers" />
       </div>
