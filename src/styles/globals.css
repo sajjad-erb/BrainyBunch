@@ -174,4 +174,22 @@ a {
   background-size: 100%;
 }
 
+.slide-right {
+  width: 86%;
+  /* width: 100%; */
+  overflow: hidden;
+  margin-left: -30px;
+  max-width: 90%
+}
 
+.slide-right div {
+  animation: 60s slide-right 0.01s forwards infinite;
+  animation-iteration-count: infinite;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}

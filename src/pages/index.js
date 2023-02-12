@@ -45,21 +45,32 @@ export default function Home() {
 
       <section>
         <section className='mt-44'><Army /></section>
-        <div className='flex justify-between relative'>
-          <div className='flex mt-60 bg-gray-600 justify-center items-center '>
-            <img src="/techs/AWS.svg" alt="" className='h-[120px]' />
-            <img src="/techs/language1.svg" alt="" className='h-[120px]'/>
-            <img src="/techs/language2.svg" alt="" className='h-[120px] mx-10' />
-            <img src="/techs/language3.svg" alt="" className='h-[120px] mx-10' />
-            <img src="/techs/language4.svg" alt="" className='h-[120px] mx-10' />
-            <img src="/techs/language5.svg" alt="" className='h-[120px] mx-10' />
-            <img src="/techs/language6.svg" alt="" className='h-[120px] mx-10' />
-            <img src="/techs/language7.svg" alt="" className='h-[120px] mx-10' />
-            <img src="/techs/language8.svg" alt="" className='h-[120px] mx-10' />
-            <img src="/techs/language9.svg" alt="" className='h-[120px]' />
+        <div className='flex justify-between relative mt-40'>
+          <div class="slide-right -rotate-12 ">
+            <div className='flex justify-center items-center p-3'>
+              <img src="/techs/AWS.svg" alt="" className='h-[120px]' />
+              <img src="/techs/language1.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/language2.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/language3.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/language4.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/language5.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/language6.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/language7.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/language8.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/ROR.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/flutter.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/Android.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/tailwind.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/python.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/vue-js.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/css.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/Django.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/react-native.svg" alt="" className='h-[120px] mx-14' />
+              <img src="/techs/language9.svg" alt="" className='h-[120px]' />
+              </div>
           </div>
-          <img src="castle.svg" alt="Castle of multiple programming languages React Angular Ruby on Rails
-        java javascript typescript c++ c# and manymore" className='w-[400px] absolute  bottom-0 right-0 ' />
+          <img src="castle-updated.svg" alt="Castle of multiple programming languages React Angular Ruby on Rails
+        java javascript typescript c++ c# and manymore" className='w-[500px] absolute  bottom-2 right-[-10%]  ' />
         </div>
       </section>
 
@@ -90,6 +101,8 @@ export default function Home() {
       <section className='flames-bg mt-32'>
         <section className='mt-44'><FAQs /></section>
       </section>
+
+
 
 
     </>
