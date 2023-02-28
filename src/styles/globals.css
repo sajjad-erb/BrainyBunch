@@ -138,7 +138,7 @@ a {
   background-repeat: no-repeat;
   background-size: 110%;
   padding-top: 220px;
-  height: 1700px;
+ 
 }
 
 
@@ -183,7 +183,7 @@ a {
 }
 
 .slide-right div {
-  animation: 40s slide-right 0.01s forwards infinite;
+  animation: 20s slide-right 0.01s forwards infinite;
   animation-iteration-count: infinite;
     transform:translateX(-100%);
 }
