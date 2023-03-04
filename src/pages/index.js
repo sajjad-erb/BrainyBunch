@@ -20,6 +20,7 @@ import NinjaCode from '@/components/NinjaCode'
 import FAQs from '@/components/FAQs'
 import WeeklyProgress from '@/components/WeeklyProgress'
 import Footer from '@/components/Footer'
+import Form from '@/components/Form'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,6 +41,9 @@ export default function Home() {
       <nav className='mt-10 '>
         <Navbar />
       </nav>
+      <section>
+        <Form />
+      </section>
       <section className=' mt-8 relative'><Banner />
         <img src="banner-image.svg" alt="developer coding with a laptop keyboard" className='hidden lg:block absolute right-0
         bottom-0 h-[90%]'  />
