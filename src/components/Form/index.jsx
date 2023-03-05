@@ -4,7 +4,6 @@ import StepTwo from './StepTwo';
 import Flex from '../shared/Flex';
 import Grid from '../shared/Grid';
 import StepFormHeader from './Header';
-import TwoStepForm from './sample';
 import { ternary, equal } from '../util/javascript';
 
 const Form = () => {
@@ -34,7 +33,6 @@ const Form = () => {
   };
   return (
     <>
-      {/* <TwoStepForm /> */}
       <Flex extraClass={"flex-col items-center mt-10"}>
         <StepFormHeader step={step} />
       </Flex>
