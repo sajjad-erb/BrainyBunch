@@ -26,6 +26,7 @@ export const ternary = (bool, truth, faulty) => (bool ? truth : faulty)
 
 export const add = (v1) => (v2) =>
   ternary(equal(v2, 0), add(v1 + v2), ternary(v2, add(v1 + v2), v1))
+  
 export const subtract = (v1, v2) => v1 - v2
 
 export const multiply = (v1, v2) => v1 * v2

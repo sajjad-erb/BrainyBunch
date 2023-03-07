@@ -76,11 +76,22 @@ a {
     color-scheme: dark;
   }
 }
+.zoom {
+  transition: transform .2s;
+}
 
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+}
+.clicked-zoom {
+   -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1);
+}
 
-
-
-
+.selectLanguague:checked ~ .content-box{
+  border: 2px solid green;
+}
 .button-pink {
   background-image: url('/button-pink.svg');
   background-repeat: no-repeat;

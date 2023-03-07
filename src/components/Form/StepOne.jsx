@@ -9,8 +9,8 @@ const StepOne
   = (props) => {
     return (
       <>
-        <div className='my-28'>
-          <div className='px-24'>
+        <div className='my-20'>
+          <div className='px-4 md:px-24 text-center md:text-left'>
             <p className='font-bold text-3xl'>Join us in our <span className=' text-[#7ff221]'>quest</span>  to discover a skilled developer for your  needs!</p>
           </div>
 
@@ -29,12 +29,11 @@ const StepOne
                 btnClassName={"order-[#7ff221] rounded-2xl w-3/4 py-7 px-3 bg-[#e65be8] hover:bg-green-650 text-pink"}
                 onClick={() => props.nextButton()} />
             </div>
-
           </Form>
         </div>
 
         <Flex extraClass={"justify-center"}>
-          <Image src="CharacterStepForm.svg" alt="logo of brainy bunch" extraClassName={"mx-6"} />
+          <Image src="CharacterStepForm.svg" alt="logo of brainy bunch" extraClassName={"mx-6 w-36 md:w-auto"} />
         </Flex>
       </>);
   }

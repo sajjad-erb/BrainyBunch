@@ -5,15 +5,30 @@ import Flex from '../shared/Flex';
 import Grid from '../shared/Grid';
 import StepFormHeader from './Header';
 import { ternary, equal } from '../util/javascript';
+import Flame from './Header/Flame';
 
 const Form = () => {
   const [step, setStep] = useState(1);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [selectLanguague, setSelectLanguague] = useState([])
 
   const handleNameChange = (e) => {
     setName(e.target.value);
   };
+
+  const handleAddSelectedLanguagueIndex = (newValue) => {
+    if (selectLanguague.length === 0) {
+      setSelectLanguague([newValue])
+    }
+    else {
+      if (selectLanguague.includes(newValue)) {
+        setSelectLanguague(selectLanguague.filter((value) => value !== newValue));
+      } else {
+        setSelectLanguague([...selectLanguague, newValue]);
+      }
+    }
+  }
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -38,12 +53,14 @@ const Form = () => {
       </Flex>
 
 
-      <Grid extraClass={"grid grid-cols-2 mt-10"}>
-        {ternary(equal(step, 1),
-          <StepOne onEmailChange={handleEmailChange} nextButton={handleNextStep} onNameChange={handleNameChange} />,
-          <StepTwo previousForm={handlePreviousStep} handleSubmit={handleSubmit} />,
-        )}
-      </Grid>
+      {ternary(equal(step, 1),
+        <Grid extraClass={"md:grid-cols-2 sm:grid-cols-1 mt-10"}>
+          <StepOne onEmailChange={handleEmailChange} nextButton={handleNextStep} onNameChange={handleNameChange} />
+        </Grid>,
+        <Grid extraClass={"mt-10"}>
+          <StepTwo previousForm={handlePreviousStep} handleSubmit={handleSubmit} selectedLanguagues={handleAddSelectedLanguagueIndex} selected={selectLanguague} />
+        </Grid>,
+      )}
 
     </>
   );

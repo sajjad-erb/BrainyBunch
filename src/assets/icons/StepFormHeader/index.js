@@ -20,7 +20,7 @@ export const Ellipse = () => (
 )
 export const EllipseStepTwoCircle = () => (
 	<svg width="123" height="123" viewBox="0 0 123 123" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<circle cx="61.5" cy="61.5" r="59" fill="black" stroke="#FF3DF0" stroke-width="5" />
+		<circle cx="61.5" cy="61.5" r="59" fill="black" stroke="#FF3DF0" strokeWidth="5" />
 	</svg>
 
 )
@@ -36,7 +36,7 @@ export const EllipseCircle = () => (
 
 export const CenterBar = () => (
 	<svg width="195" height="14" viewBox="0 0 195 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<path fill-rule="evenodd" clip-rule="evenodd" d="M192.815 5.24456C190.37 4.57849 159.765 3.86777 109.03 3.35351C89.9237 3.14243 58.808 2.59223 39.8535 2.08198C-10.4263 0.71345 -14.093 8.49905 36.8412 9.75388C113.821 11.6504 190.856 11.298 193.809 8.99064C195.507 7.6477 195.044 5.86205 192.815 5.24456Z" fill="#BA68C8" />
+		<path fillRule="evenodd" clipRule="evenodd" d="M192.815 5.24456C190.37 4.57849 159.765 3.86777 109.03 3.35351C89.9237 3.14243 58.808 2.59223 39.8535 2.08198C-10.4263 0.71345 -14.093 8.49905 36.8412 9.75388C113.821 11.6504 190.856 11.298 193.809 8.99064C195.507 7.6477 195.044 5.86205 192.815 5.24456Z" fill="#BA68C8" />
 	</svg>
 
 )
