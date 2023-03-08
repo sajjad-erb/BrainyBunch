@@ -20,6 +20,7 @@ import NinjaCode from '@/components/NinjaCode'
 import FAQs from '@/components/FAQs'
 import WeeklyProgress from '@/components/WeeklyProgress'
 import Footer from '@/components/Footer'
+import Form from '@/components/Form/index.jsx'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,11 +36,14 @@ export default function Home() {
         <meta property="og:title" content="Brainy Bunch - The Best Developers for Your Project" />
         <meta property="og:description" content="Find the best developers for your project at Brainy Bunch. We offer top talent in multiple languages for all your tech needs." />
         <link rel="icon" href="logo.svg" />
-    
+
       </Head>
       <nav className='mt-10 '>
         <Navbar />
       </nav>
+      <section>
+        <Form />
+      </section>
       <section className=' mt-8 relative'><Banner />
         <img src="banner-image.svg" alt="developer coding with a laptop keyboard" className='hidden lg:block absolute right-0
         bottom-0 h-[90%]'  />
