@@ -11,6 +11,8 @@ const Form = () => {
   const [step, setStep] = useState(1);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [developerNeeds, setDeveloperNeeds] = useState("")
+  const [developerNeedSecond, setdeveloperNeedSecond] = useState("")
   const [selectLanguague, setSelectLanguague] = useState([])
 
   const handleNameChange = (e) => {
@@ -28,6 +30,13 @@ const Form = () => {
         setSelectLanguague([...selectLanguague, newValue]);
       }
     }
+  }
+  const handleDeveloperNeed = (e) => {
+    setDeveloperNeeds(e.target.value)
+  }
+
+  const handleDeveloperNeedSecond = (e) => {
+    setdeveloperNeedSecond(e.target.value)
   }
 
   const handleEmailChange = (e) => {
@@ -55,10 +64,10 @@ const Form = () => {
 
       {ternary(equal(step, 1),
         <Grid extraClass={"md:grid-cols-2 sm:grid-cols-1 mt-10"}>
-          <StepOne onEmailChange={handleEmailChange} nextButton={handleNextStep} onNameChange={handleNameChange} />
+          <StepOne onEmailChange={handleEmailChange} nextButton={handleNextStep} onNameChange={handleNameChange} name={name} email={email} />
         </Grid>,
         <Grid extraClass={"mt-10"}>
-          <StepTwo previousForm={handlePreviousStep} handleSubmit={handleSubmit} selectedLanguagues={handleAddSelectedLanguagueIndex} selected={selectLanguague} />
+          <StepTwo previousForm={handlePreviousStep} handleSubmit={handleSubmit} selectedLanguagues={handleAddSelectedLanguagueIndex} selected={selectLanguague} onDeveloper={handleDeveloperNeed} onDeveloperSecond={handleDeveloperNeedSecond} parameter1={developerNeeds} parameter2={developerNeedSecond} />
         </Grid>,
       )}
 

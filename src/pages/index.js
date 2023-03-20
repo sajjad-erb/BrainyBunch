@@ -20,7 +20,7 @@ import NinjaCode from '@/components/NinjaCode'
 import FAQs from '@/components/FAQs'
 import WeeklyProgress from '@/components/WeeklyProgress'
 import Footer from '@/components/Footer'
-import Form from '@/components/Form/index.jsx'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -41,9 +41,7 @@ export default function Home() {
       <nav className='mt-10 '>
         <Navbar />
       </nav>
-      <section>
-        <Form />
-      </section>
+
       <section className=' mt-8 relative'><Banner />
         <img src="banner-image.svg" alt="developer coding with a laptop keyboard" className='hidden lg:block absolute right-0
         bottom-0 h-[90%]'  />
@@ -90,7 +88,7 @@ export default function Home() {
         <section className='md:mt-32'><SelectionProcess /></section>
       </section>
 
-      <section className='md:mt-44 mt-16'><HiringProblem /></section>
+      <section className='lg:mt-44 mt-16 md:mt-0'><HiringProblem /></section>
 
       <section className='md:mt-44 mt-16'><CodeStory /></section>
 
@@ -98,18 +96,18 @@ export default function Home() {
 
       <section className='md:mt-44 mt-8 '><TheKing /></section>
 
-      <section className='md:mt-44 mt-16'><Testimonial /></section>
+      <section className='md:mt-44 mt-20'><Testimonial /></section>
 
       <section className='md:mt-32 mt-8 '><JoinOurCommunity /></section>
 
-      <section className='md:mt-44 mt-16'><WeeklyProgress /></section>
+      <section className='lg:mt-44 mt-16'><WeeklyProgress /></section>
 
       <section className='md:mt-44 mt-16'><PaymentPlans /></section>
 
       <section className='md:mt-44 mt-16'><NinjaCode /></section>
 
       <section className='flames-bg md:h-[1700px] mt-32'>
-        <section className='mt-44'><FAQs /></section>
+        <section className='mt-48 md:mt-44'><FAQs /></section>
       </section>
 
       <footer><Footer /></footer>

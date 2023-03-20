@@ -41,9 +41,9 @@ const Banner = () => {
                         </span>
                     </p>
                     <div className='flex mt-8 justify-center md:justify-start'>
-                        <button type="button" onClick={handleClick}  className='button-pink text-2xl flex items-center hover:rotate-1' alt='hire a developer'>
-                            <img src="armour-cta.svg" alt="fill up a form to hire a developer" className='h-[40px]' />
-                            <p className='hover:text-green-650 '>Join the Hunt</p></button>
+                        <button type="button" onClick={handleClick} className='button-pink lg:text-2xl flex items-center hover:rotate-1' alt='hire a developer'>
+                            <img src="armour-cta.svg" alt="fill up a form to hire a developer" className='h-[10px] md:h-[40px]' />
+                            <p className='hover:text-green-650 text-xs md:text-xl '>Join the Hunt</p></button>
                         <img src="clock.svg" alt="get a developer in less than 24 hours" className='h-[80px]' />
                     </div>
                 </div>

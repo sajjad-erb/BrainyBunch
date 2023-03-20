@@ -22,6 +22,7 @@ const InputField = ({
   htmlFor,
   showLikeButton = false,
   disabled = false,
+  required = false,
 }) => (
   <>
     {ternary(
@@ -54,6 +55,7 @@ const InputField = ({
       defaultValue={defaultValue}
       accept={accept}
       disabled={disabled}
+      required={required}
     />
     <span className="text-red-700 mt-2 text-sm">{errorMessage}</span>
   </>
