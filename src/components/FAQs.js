@@ -21,13 +21,16 @@ const FAQs = () => {
 
     return (
         <div className='mx-[8%] tracking-widest'>
-            <div className='flex items-center justify-between'>
-                <div className='flex items-center'>
+            <div className='md:flex items-center justify-center'>
+                <div className='flex justify-center'>
+
                     <h1 className=' md:text-7xl font-bold'>FAQs</h1>
+                </div>
+                <div className='flex justify-center'>
                     <img src="Sketch-annotation-element-brush-pen-icon-question-sign.svg" alt="Hire any developer of brainy bunch we have some frequently asked questions here" />
                 </div>
-                <div className='hidden md:block'>
-                    <button className='button-pink flex items-center mx-10 '>
+                <div className='flex justify-center'>
+                    <button className='button-pink flex items-center md:mx-10 '>
                         <span className='mx-1 hover:text-black'>Contact Us</span>
                     </button>
                 </div>
@@ -36,7 +39,7 @@ const FAQs = () => {
                 <Fragment>
                     <Accordion open={open === 1} animate={customAnimation} className='bg-black-750 border-b-2 border-white'>
                         <AccordionHeader onClick={() => handleOpen(1)}>
-                            <img src={open === 1 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3'/>
+                            <img src={open === 1 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3' />
                             <p className='tracking-widest ml-6 text-sm md:text-xl'> What kind of programming languages do developers of "The Brainy Bunch" know?</p>
                         </AccordionHeader>
                         <AccordionBody className='p-4'>
@@ -45,7 +48,7 @@ const FAQs = () => {
                     </Accordion>
                     <Accordion open={open === 2} animate={customAnimation} className='bg-black-750 border-b-2 border-white mt-6'>
                         <AccordionHeader onClick={() => handleOpen(2)}>
-                        <img src={open === 2 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3' />
+                            <img src={open === 2 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3' />
                             <p className='tracking-widest  ml-6 text-sm md:text-xl' >Can the developers of "The Brainy Bunch" handle any coding challenge?
                             </p>
                         </AccordionHeader>
@@ -55,7 +58,7 @@ const FAQs = () => {
                     </Accordion>
                     <Accordion open={open === 3} animate={customAnimation} className='bg-black-750 border-b-2 border-white mt-6'>
                         <AccordionHeader onClick={() => handleOpen(3)}>
-                        <img src={open === 3 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3' />
+                            <img src={open === 3 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3' />
                             <p className='tracking-widest  ml-6 text-sm md:text-xl'>  What kind of solutions can I expect from "The Brainy Bunch"?
                             </p>
                         </AccordionHeader>
@@ -65,7 +68,7 @@ const FAQs = () => {
                     </Accordion>
                     <Accordion open={open === 4} animate={customAnimation} className='bg-black-750 border-b-2 border-white mt-6'>
                         <AccordionHeader onClick={() => handleOpen(4)}>
-                        <img src={open === 4 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3'/>
+                            <img src={open === 4 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3' />
                             <p className='tracking-widest  ml-6 text-sm md:text-xl' > What if one of the developers gets injured during a coding battle?
                             </p>
                         </AccordionHeader>
@@ -75,8 +78,8 @@ const FAQs = () => {
                     </Accordion>
                     <Accordion open={open === 5} animate={customAnimation} className='bg-black-750 border-b-2 border-white mt-6'>
                         <AccordionHeader onClick={() => handleOpen(5)}>
-                        <img src={open === 5 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3' />
-                            <p className='tracking-widest ml-6 text-sm md:text-xl '> What makes "The Brainy Bunch" different from other coding teams? 
+                            <img src={open === 5 ? 'game-icons_shard-sword (1).svg' : 'game-icons_shard-sword.svg'} alt="" className='hover:rotate-3' />
+                            <p className='tracking-widest ml-6 text-sm md:text-xl '> What makes "The Brainy Bunch" different from other coding teams?
                             </p>
                         </AccordionHeader>
                         <AccordionBody className='p-4'>

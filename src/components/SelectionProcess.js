@@ -41,7 +41,7 @@ const SelectionProcess = () => {
                 </div>
 
                 <div className='h-100 bg-black-650 shadow-outline-white '>
-                    <div className=' p-[10%] border-2 border-green-650  rotate-1 hover:-rotate-1'>
+                    <div className=' p-8 border-2 border-green-650  rotate-1 hover:-rotate-1'>
                         <div className='flex justify-end'>
                             <h1 className='text-5xl text-green-650'>04</h1>
                         </div>
@@ -52,6 +52,8 @@ const SelectionProcess = () => {
                 </div>
             </div>
         </div>
+    
+    
 
     )
 }
